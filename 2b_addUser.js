@@ -1,8 +1,8 @@
 
 function addUser(arr, userObj) {
-    arr = arr.filter(a => { return a.name == userObj.name })
+    let temp = arr.filter(a => { return a.name == userObj.name })
 
-    if (arr == false){
+    if (temp == false){
         arr.push(userObj)
         console.log(`User added successfully!`)
     }
@@ -58,7 +58,7 @@ const users = [
 ];
 
 const newUser =     {
-    name: 'Raju',
+    name: 'Thomas',
     scores: 95,
     skills: ['HTM', 'CSS', 'JS','EXPRESS'],
     age: 16

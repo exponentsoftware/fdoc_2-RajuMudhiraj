@@ -2,8 +2,6 @@
 function addUser(arr, userObj) {
     arr = arr.filter(a => { return a.name == userObj.name })
 
-    console.log(arr)
-    
     if (arr == false){
         arr.push(userObj)
         console.log(`User added successfully!`)

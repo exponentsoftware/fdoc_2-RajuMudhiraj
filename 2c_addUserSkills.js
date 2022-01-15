@@ -1,5 +1,5 @@
 
-function addUser(arr, userObj) {
+function addUserSkills(arr, userObj) {
     let index = arr.findIndex(x => x.name === userObj.name)
 
 
@@ -67,4 +67,4 @@ const newUser = {
 };
 
 
-console.log(addUser(users, newUser))
+console.log(addUserSkills(users, newUser))
